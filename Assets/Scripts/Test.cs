@@ -14,6 +14,6 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3 (Mathf.Cos(Time.time * 2), Mathf.Sin(Time.time * 2), 0);
+        transform.position = new Vector3 (Mathf.Cos(Time.time * 10), Mathf.Sin(Time.time * 10), 0);
     }
 }
